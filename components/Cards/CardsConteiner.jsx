@@ -1,4 +1,4 @@
-import './cardsConteiner.css'
+import './CardsConteiner.css'
 import CardUno from './CardUno/CardUno'
 import CardDos from './CardDos/CardDos'
 import CardTres from './CardTres/CardTres'
