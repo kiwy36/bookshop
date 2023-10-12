@@ -1,0 +1,143 @@
+.card {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    min-height: 300px;
+    max-height: auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    width: 90%;
+    max-width: 90%;
+    overflow: hidden;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.card-texto{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.code-section {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.copy-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.copy-button:hover {
+    background-color: #1ee8e4;
+}
+.copy-notice {
+    color: rgb(22, 202, 234);
+    margin-top: 5px;
+}
+.buttons-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.section-button {
+    width: 33%;
+    margin: 1px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.section-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+.cont-fic-card h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    border: solid 1px gray;
+    box-shadow:  0px 0px 10px gray
+}
+
+.button-title-dos {
+    font-size: 30px;
+    font-weight: bold;
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+.reactions-container-padre{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    border: aquamarine 5px solid;
+    justify-content: center;
+    align-items: center;
+}
+.reactions-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.reaction-button{
+    margin-bottom: 10px;
+    width: 8rem;
+    padding: 1px;
+    margin: 1px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: black;
+    transition: background-color 0.3s;
+}
+.reaction-button:hover .reaction-button-count {
+    display: none;
+}
+.boton-texto{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .reaction-button{
+        width: auto;
+        font-size: 0.6rem;
+    }
+    .code-section {
+        max-width: 90%;
+        font-size: 0.6rem;
+    }
+}

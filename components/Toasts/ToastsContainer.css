@@ -1,0 +1,38 @@
+.seccion-contenedor-toasts{
+    height: auto;
+    margin: auto;
+    width: 100%;
+    min-height: 90vh;
+    background: #0d0d0d;
+}
+.seccion-contenedor-toasts .title {
+    color: aquamarine;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top:100px;
+}
+.seccion-contenedor-toasts .texto-informativo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 30px;
+}
+.contenedor-de-ejemplos-acc-toasts{
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .seccion-contenedor-toasts .title {
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+    .seccion-contenedor-toasts .texto-informativo {
+        width: 90%;
+        height: auto;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+}
+.root {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  height: auto;
+  min-height: 100vh;
+}
+.content {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: auto;
+}

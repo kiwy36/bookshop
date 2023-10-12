@@ -1,0 +1,123 @@
+.card {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    min-height: 300px;
+    max-height: auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    width: 90%;
+    max-width: 90%;
+    overflow: hidden;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.code-section {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.copy-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.copy-button:hover {
+    background-color: #1ee8e4;
+}
+.copy-notice {
+    color: rgb(22, 202, 234);
+    margin-top: 5px;
+}
+.buttons-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.section-button {
+    width: 33%;
+    margin: 1px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.section-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.button-title-tres {
+    font-size: 30px;
+    font-weight: bold;
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+.timer-container {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.time-display {
+    text-decoration: none;
+    margin: auto;
+    align-items: center;
+    max-width: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.buttons-container-timer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.button-timer {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-timer:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.boton-texto-tempo{
+    text-align: center;
+}
+
+.boton-texto{
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .code-section {
+        max-width: 90%;
+        font-size: 0.6rem;
+    }
+}
