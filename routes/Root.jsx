@@ -6,6 +6,7 @@ import Buttons from '../components/Buttons/Buttons'
 import CardsConteiner from '../components/Cards/CardsConteiner'
 import NavbarsConteiner from '../components/Navbar/NavbarsConteiner'
 import ToastsConteiner from '../components/Toasts/ToastsContainer'
+import CarrouselConteiner from '../components/Carrousels/CarrouselsConteiner'
 const Root = () => {
   return (
     <div className='contenedorDeContenedores'>
@@ -16,6 +17,7 @@ const Root = () => {
           <ElementoAccordion/>
           <Buttons/>
           <CardsConteiner/>
+          <CarrouselConteiner/>
           <NavbarsConteiner/>
           <ToastsConteiner/>
           {/* Aquí puedes agregar el resto del contenido */}
