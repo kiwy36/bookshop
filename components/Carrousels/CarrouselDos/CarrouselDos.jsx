@@ -106,7 +106,7 @@ const CopyButton = ({ text, onCopy }) => {
                 <img src={destinations[currentDestination].images[currentImage]} alt={destinations[currentDestination].title} />
                 <p className='destination-title'>{destinations[currentDestination].title}</p>
                 <p className='destination-description'>{destinations[currentDestination].description}</p>
-                <button className='consult-button' onClick={() => window.location.href = destinations[currentDestination].url}>
+                <button className='consult-button'  onClick={() => window.open(destinations[currentDestination].url, '_blank')}>
                   Consulte planes de viaje
                 </button>
               </div>
