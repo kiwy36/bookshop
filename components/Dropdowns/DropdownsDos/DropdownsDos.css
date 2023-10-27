@@ -11,7 +11,7 @@
     max-width: 90%;
     overflow: hidden;
 }
-.carrousel-title{
+.dropdown-title{
     font-size: 30px;
     font-weight: bold;
     color: aquamarine;
@@ -69,32 +69,4 @@
         max-width: 90%;
         font-size: 0.6rem;
     }
-}
-.carousel-conteiner-master-tres{
-    width: 80%;
-    margin: auto;
-}
-.carousel-container-tres {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-.elemento-acompañante-cr-tres{
-    height: 30vh;
-    text-align: center;
-    width: 100%;
-}
-.carousel-tres {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.carousel-tres h1 {
-    flex: 1;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #000;
-}
-.active {
-    background-color: lightgray;
 }
