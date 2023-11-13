@@ -10,9 +10,9 @@ const DropdownsConteiner = () => {
             <h1 className='title'>Dropdowns</h1>
             <h2 className='texto-informativo'>Los elementos Dropdown son componentes interactivos que permiten a los usuarios seleccionar una opción de una lista desplegable.</h2>
             <div className='contenedor-de-ejemplos-acc-Dropdowns'>
+                <DropdownsTres/>
                 <DropdownsUno/>
                 <DropdownsDos/>
-                <DropdownsTres/>
             </div>
         </section>
     )

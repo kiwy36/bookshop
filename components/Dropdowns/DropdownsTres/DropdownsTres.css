@@ -70,3 +70,44 @@
         font-size: 0.6rem;
     }
 }
+.dropdown-tres-container-master{
+    width: 60%;
+    margin: auto;
+}
+.dropdown-tres-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-tres-button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+.dropdown-tres-options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 148px;
+}
+
+.dropdown-tres-options button {
+    padding: 10px;
+    border: none;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    text-align: left;
+}
+
+.dropdown-tres-options button:hover {
+    background-color: #ddd;
+}
