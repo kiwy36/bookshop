@@ -132,7 +132,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 62vh;
+    height: auto;
     background: gray;
     border: solid 5px rgb(41, 41, 41);
     display: flex;
@@ -225,7 +225,7 @@
     }
     .toast-dropdown{
         width: 100%;
-        height: 80vh;
+        height: auto;
     }
 }
 
@@ -248,8 +248,8 @@
 
     .label-input-dropdown {
         display: flex;
-        flex-direction: column; /* Cambia a disposición de columna */
-        align-items: center; /* Centra horizontalmente */
+        flex-direction: column;
+        align-items: center;
     }
     .label-dropdown{
         text-align: center;
@@ -261,10 +261,10 @@
         justify-content: center;
         align-items: center;
         margin: auto;
-        width: auto; /* Ocupa todo el ancho disponible */
+        width: auto;
     }
     .toast-dropdown{
         width: 100%;
-        height: 63vh;
+        height: auto;
     }
 }
