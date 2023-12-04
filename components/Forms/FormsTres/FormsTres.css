@@ -70,3 +70,102 @@
         font-size: 0.6rem;
     }
 }
+
+.containerFormTres {
+    min-width: 600px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.formSectionFormTres {
+    margin-bottom: 20px;
+}
+.formSectionFormTresOptions{
+    display: flex;
+    flex-direction: row;
+}
+
+.labelFormTres {
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 2px;
+    display: block;
+    margin-bottom: 10px;
+    border: solid 3px aquamarine;
+    padding: 5px 10px;
+}
+.labelFormTres:hover{
+    border: solid 3px aquamarine;
+    background-color: #fff;
+    color: black;
+}
+.buttonFormTresContainer{
+    display: flex;
+    flex-direction: row;
+}
+.buttonFormTres {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+    margin-top: 7px;
+}
+
+.buttonFormTres:hover {
+    background-color: #45a049;
+}
+.resultsFormTres {
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+    color: #fff; /* Color del texto */
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 999; /* Valor alto para asegurar que esté encima de otros elementos */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    cursor: pointer;
+    margin:0 3px;
+}
+
+input[type="radio"]:checked {
+    background-color: red;
+    border-color: aquamarine;
+}
+
+input[type="radio"]:checked::before {
+    content: '\2022';
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 480px){
+    .containerFormTres {
+        min-width: auto;
+        max-width: 600px;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+}
