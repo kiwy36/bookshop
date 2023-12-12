@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types';
 import './ImagesDos.css';
 const CopyButton = ({ text, onCopy }) => {
@@ -21,12 +21,92 @@ CopyButton.propTypes = {
 
 
 const ImageElemento = () => {
+  const [isAccordionOpen, setIsAccordionOpen] = useState(false);
+  const [isAccordionOpenImagenUno, setIsAccordionOpenImagenUno] = useState(false);
+  const [isAccordionOpenImagenDos, setIsAccordionOpenImagenDos] = useState(false);
+
+  const handleImageClick = () => {
+    setIsAccordionOpen(!isAccordionOpen);
+  };
+
+  const handleImageClickImagenUno = () => {
+    setIsAccordionOpenImagenUno(!isAccordionOpenImagenUno);
+  };
+
+  const handleImageClickImagenDos = () => {
+    setIsAccordionOpenImagenDos(!isAccordionOpenImagenDos);
+  };
+
+  // useEffect para la imagen 1
+  useEffect(() => {
+    const timerImagenUno = setTimeout(() => {
+      setIsAccordionOpenImagenUno(false);
+    }, 7000);
+
+    return () => clearTimeout(timerImagenUno);
+  }, [isAccordionOpenImagenUno]);
+
+  // useEffect para la imagen 2
+  useEffect(() => {
+    const timerImagenDos = setTimeout(() => {
+      setIsAccordionOpenImagenDos(false);
+    }, 7000);
+
+    return () => clearTimeout(timerImagenDos);
+  }, [isAccordionOpenImagenDos]);
+
+  // useEffect para la imagen principal
+  useEffect(() => {
+    const timerPrincipal = setTimeout(() => {
+      setIsAccordionOpen(false);
+    }, 7000);
+
+    return () => clearTimeout(timerPrincipal);
+  }, [isAccordionOpen]);
+
   return (
-    <div>
-      imagen dos
-    </div>
-  )
-}
+    <section className='contenerdor-elementos-imagesDos'>
+      <section className='imagesTresContainer'>
+        <div className={`image-container-dos ${isAccordionOpen ? 'accordion-open' : ''}`}>
+          <div className="hover-text-imagen-dos">
+            Majestuoso y feroz, el puma es un felino americano que domina vastas regiones. Su elegancia y destreza lo destacan como un depredador impresionante.
+          </div>
+          <img
+            src="https://www.gba.gob.ar/sites/default/files/img_agroindustria/COMUNICADO_PROYECTO_puma.jpg"
+            alt="Imagen muestra"
+            className="hover-image"
+            onClick={handleImageClick}
+          />
+        </div>
+        <div className={`image-container-dos ${isAccordionOpenImagenUno ? 'accordion-open' : ''}`}>
+          <div className="hover-text-imagen-dos">
+            El hornero, ave símbolo de Argentina, construye nidos de barro únicos. Su laboriosa naturaleza y canto melodioso lo distinguen en los campos sudamericanos.
+          </div>
+          <img
+            src="https://i.pinimg.com/564x/87/75/8b/87758bcd8c11f4797e904d6e95f9935b.jpg"
+            alt="Segunda imagen muestra"
+            className="hover-image"
+            onClick={handleImageClickImagenUno}
+          />
+        </div>
+        <div className={`image-container-dos ${isAccordionOpenImagenDos ? 'accordion-open' : ''}`}>
+          <div className="hover-text-imagen-dos">
+            El pudú pudú, ciervo más pequeño del mundo, habita los bosques sudamericanos. Su tamaño diminuto y cuernos cortos lo hacen encantador.
+          </div>
+          <img
+            src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2WXC5VEFCZARLG2XIDOVD6I37U.jpg"
+            alt="Cuarta imagen muestra"
+            className="hover-image"
+            onClick={handleImageClickImagenDos}
+          />
+        </div>
+      </section>
+      <div className='parteAcompante-imagesDos'>
+        <h1>parte acompañante</h1>
+      </div>
+    </section>
+  );
+};
 
 const ImagesDos = () => {
   const [isReactCodeOpen, setIsReactCodeOpen] = useState(false);

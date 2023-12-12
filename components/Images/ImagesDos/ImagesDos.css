@@ -70,3 +70,66 @@
         font-size: 0.6rem;
     }
 }
+
+.contenerdor-elementos-imagesDos{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.imagesTresContainer {
+    position: relative;
+}
+
+.image-container-dos {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.hover-text-imagen-dos {
+    text-align: center;
+    display: flex; /* Añadida propiedad para usar flexbox */
+    align-items: center; /* Centrar verticalmente en el medio */
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 105px;
+    width: 0;
+    height: 98%;
+    background-color: rgba(0, 0, 0, 0.9); /* Color de fondo del texto */
+    transition: width 0.5s ease, border 0.5s ease; /* Añadida transición para el borde */
+    overflow: hidden;
+    border: none;
+    z-index: 2;
+}
+
+.image-container-dos:hover .hover-text-imagen-dos,
+.image-container-dos.accordion-open .hover-text-imagen-dos {
+  width: 400px; /* Ancho deseado cuando se hace hover o se expande */
+  z-index: 2;
+}
+
+.hover-image {
+    border: red 3px solid;
+    border-radius: 50%;
+    width: 100px;
+    min-height: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.parteAcompante-imagesDos{
+    min-width: 70%;
+    width: 70%;
+    min-height: 100%;
+    height: auto;
+    text-align: center;
+    border: #1ee8e4 3px solid;
+    z-index: 0;
+}
+@media (max-width: 768px) {
+    /* Estilos específicos para pantallas más grandes (tabletas y escritorio) */
+    .hover-text-imagen-dos {
+        text-align: start;
+        font-size: 15px; /* Tamaño de fuente para pantallas más grandes */
+    }
+}

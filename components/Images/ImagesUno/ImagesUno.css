@@ -72,14 +72,14 @@
 }
 .cube-container {
   perspective: 800px;
-  margin: 50px auto;
+  margin: 75px auto;
 }
 
 .cube {
   width: 200px;
   height: 200px;
   transform-style: preserve-3d;
-  transform: rotateX(45deg) rotateY(45deg);
+  transform: rotateX(0deg) rotateY(0deg);
   animation: rotate 10s infinite linear;
 }
 
@@ -100,6 +100,7 @@
 .back {
   transform: rotateY(180deg) translateZ(100px);
 }
+
 .left {
   transform: rotateY(-90deg) translateZ(100px);
 }
@@ -115,13 +116,12 @@
 .bottom {
   transform: rotateX(90deg) translateZ(100px);
 }
-/* Agrega estilos para las demás caras del cubo */
 
 @keyframes rotate {
   from {
-    transform: rotateX(45deg) rotateY(45deg);
+    transform: rotateX(0deg) rotateY(0deg); /* Cambio aquí */
   }
   to {
-    transform: rotateX(45deg) rotateY(405deg);
+    transform: rotateX(360deg) rotateY(360deg); /* Cambio aquí */
   }
 }
