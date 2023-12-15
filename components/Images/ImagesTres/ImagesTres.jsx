@@ -21,12 +21,66 @@ CopyButton.propTypes = {
 
 
 const ImageElemento = () => {
+  const [imagenes, setImagenes] = useState([]);
+
+  const handleImagenChange = (event) => {
+    const files = event.target.files;
+
+    if (files.length > 0) {
+      const nuevasImagenes = [...imagenes];
+
+      for (let i = 0; i < files.length; i++) {
+        const file = files[i];
+        const reader = new FileReader();
+
+        reader.onloadend = () => {
+          nuevasImagenes.push(reader.result);
+          setImagenes([...nuevasImagenes]);
+        };
+
+        reader.readAsDataURL(file);
+      }
+    }
+  };
+
+  const handleEliminarImagen = (index) => {
+    const nuevasImagenes = [...imagenes];
+    nuevasImagenes.splice(index, 1);
+    setImagenes(nuevasImagenes);
+  };
+
   return (
-    <div>
-      imagen Tres
+    <div className="image-container">
+      <div className="input-wrapper">
+        <label htmlFor="inputImagen" className="input-label">
+          <div className="input-box">
+            <span>Elegir Imagen</span>
+            <input
+              type="file"
+              id="inputImagen"
+              onChange={handleImagenChange}
+              className="input-imagesTres"
+              multiple
+            />
+          </div>
+        </label>
+      </div>
+      <div className="image-wrapper">
+        {imagenes.map((imagen, index) => (
+          <div key={index} className="image-item">
+            <img src={imagen} alt={`Imagen ${index + 1}`} className="imagesTres" />
+            <button
+              onClick={() => handleEliminarImagen(index)}
+              className="button-imagesTres"
+            >
+              Eliminar Imagen
+            </button>
+          </div>
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
 const ImagesTres = () => {
   const [isReactCodeOpen, setIsReactCodeOpen] = useState(false);

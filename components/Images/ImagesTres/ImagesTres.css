@@ -70,3 +70,102 @@
         font-size: 0.6rem;
     }
 }
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0;
+  width: 90%;
+  margin: auto;
+  border: #1ee8e4 solid 2px;
+}
+
+.input-wrapper {
+  margin-right: 1px;
+}
+
+.input-label {
+  display: block;
+  width: 8rem;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.input-box {
+  width: 8rem;
+  height: 8rem;
+  border: 2px dashed #3498db;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input-imagesTres {
+  display: none;
+}
+
+.imagesTres {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+}
+
+.button-imagesTres {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 8rem;
+  padding: 2px;
+  margin: 0;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0px;
+}
+
+.image-item {
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .image-container {
+    flex-direction: column;
+  }
+
+  .input-label {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .input-box {
+    width: 100%;
+    min-width: 250px;
+    height: 10rem;
+    margin:  20px auto;
+  }
+
+  .imagesTres {
+    width: 100%;
+    height: auto;
+  }
+
+  .button-imagesTres {
+    max-width: none;
+  }
+
+  .image-wrapper {
+    gap: 0.5rem;
+  }
+
+  .image-item {
+    margin: 0.5rem;
+  }
+}
