@@ -72,12 +72,11 @@
 }
 .image-container {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   gap: 0;
   width: 90%;
   margin: auto;
-  border: #1ee8e4 solid 2px;
 }
 
 .input-wrapper {
@@ -87,8 +86,8 @@
 .input-label {
   display: block;
   width: 8rem;
-  margin-left: 1.5rem;
-  margin-top: 0.5rem;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .input-box {
@@ -100,6 +99,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin: 20px auto; /* Alineado al centro y margen inferior */
 }
 
 .input-imagesTres {
@@ -135,9 +135,29 @@
   margin-bottom: 10px;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .image-container {
+    align-items: center;
+  }
+
+  .input-box {
+    margin: auto;
+  }
+
+  .image-wrapper {
+    justify-content: space-between;
+  }
+
+  .image-item {
+    width: 18%;
+  }
+}
 @media (max-width: 767px) {
   .image-container {
     flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .input-label {
@@ -153,12 +173,15 @@
   }
 
   .imagesTres {
-    width: 100%;
-    height: auto;
+    width: 15rem;
+    height: 10rem;
+    object-fit: cover;
+    margin: 1px;
   }
 
   .button-imagesTres {
     max-width: none;
+    width: 15rem;
   }
 
   .image-wrapper {
@@ -166,6 +189,6 @@
   }
 
   .image-item {
-    margin: 0.5rem;
+    margin: auto;
   }
 }

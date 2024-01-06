@@ -73,7 +73,7 @@ const ImageElemento = () => {
             Majestuoso y feroz, el puma es un felino americano que domina vastas regiones. Su elegancia y destreza lo destacan como un depredador impresionante.
           </div>
           <img
-            src="https://www.gba.gob.ar/sites/default/files/img_agroindustria/COMUNICADO_PROYECTO_puma.jpg"
+            src="https://i.ibb.co/0Q95QbB/puma.jpg"
             alt="Imagen muestra"
             className="hover-image"
             onClick={handleImageClick}
@@ -84,7 +84,7 @@ const ImageElemento = () => {
             El hornero, ave símbolo de Argentina, construye nidos de barro únicos. Su laboriosa naturaleza y canto melodioso lo distinguen en los campos sudamericanos.
           </div>
           <img
-            src="https://i.pinimg.com/564x/87/75/8b/87758bcd8c11f4797e904d6e95f9935b.jpg"
+            src="https://i.ibb.co/1ZGsyKJ/hornero.jpg"
             alt="Segunda imagen muestra"
             className="hover-image"
             onClick={handleImageClickImagenUno}
@@ -95,7 +95,7 @@ const ImageElemento = () => {
             El pudú pudú, ciervo más pequeño del mundo, habita los bosques sudamericanos. Su tamaño diminuto y cuernos cortos lo hacen encantador.
           </div>
           <img
-            src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2WXC5VEFCZARLG2XIDOVD6I37U.jpg"
+            src="https://i.ibb.co/kc848Pc/Pud-3.jpg"
             alt="Cuarta imagen muestra"
             className="hover-image"
             onClick={handleImageClickImagenDos}

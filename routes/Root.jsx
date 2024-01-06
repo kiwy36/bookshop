@@ -10,6 +10,7 @@ import CarrouselConteiner from '../components/Carrousels/CarrouselsConteiner'
 import DropdownsConteiner from '../components/Dropdowns/DropdownsConteiner'
 import FormsConteiner from '../components/Forms/FormsContainer'
 import ImagesConteiner from '../components/Images/ImagesContainer'
+import TablesConteiner from '../components/Tables/TablesContainer'
 const Root = () => {
   return (
     <div className='contenedorDeContenedores'>
@@ -25,6 +26,7 @@ const Root = () => {
           <FormsConteiner/>
           <ImagesConteiner/>
           <NavbarsConteiner/>
+          <TablesConteiner/>
           <ToastsConteiner/>
           {/* Aquí puedes agregar el resto del contenido */}
         </div>
