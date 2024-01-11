@@ -70,3 +70,73 @@
         font-size: 0.6rem;
     }
 }
+/* TaskTable.css */
+
+.task-inputs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-inputs input,
+.task-inputs select,
+.task-inputs button {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.task-table th, .task-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #181818;
+}
+
+.completed-tasks {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.completed-tasks h2 {
+  margin-bottom: 10px;
+}
+
+.completed-tasks ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.completed-tasks li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .task-inputs {
+    flex-direction: column; /* Cambia la dirección de la fila a columna */
+    margin-bottom: 10px;
+  }
+
+  .task-inputs input,
+  .task-inputs select,
+  .task-inputs button {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px; /* Ajusta el padding para hacer todos los elementos iguales */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+  }
+
+  .task-table th,
+  .task-table td {
+    font-size: 14px; /* Reducir el tamaño de la fuente para adaptarse a la pantalla móvil */
+    padding: 6px; /* Ajustar el padding para una apariencia más compacta */
+  }
+}

@@ -85,13 +85,12 @@
 .table-row input {
     width: 100%;
     padding: 8px;
-    box-sizing: border-box; /* Asegura que el padding no incremente el ancho total */
+    box-sizing: border-box;
   }
 .table-header th {
   background-color: #282626;
 }
 
-/* Estilos para los botones y la entrada de texto */
 .buttons-table-dos {
   padding: 8px;
   background-color: #4CAF50;
@@ -105,24 +104,21 @@
   cursor: pointer;
 }
 
-/* Estilos para la última fila de la tabla */
 .last-row-table-dos td {
   font-weight: bold;
 }
 
-/* Otros estilos específicos si es necesario */
 .input-styles {
   width: 100%;
   padding: 8px;
 }
 .resumen-compra {
   width: 60%;
-  margin: 0 auto; /* Centra la sección horizontalmente */
+  margin: 0 auto;
   padding: 20px;
   background-color: #363636;
 }
 
-/* Estilos específicos para dispositivos móviles */
 @media (max-width: 767px) {
   .resumen-compra {
     width: 100%;
