@@ -11,7 +11,7 @@
     max-width: 90%;
     overflow: hidden;
 }
-.table-title{
+.Other-title{
     font-size: 30px;
     font-weight: bold;
     color: aquamarine;
@@ -71,71 +71,40 @@
     }
 }
 
-.task-inputs {
-  display: flex;
-  margin-bottom: 20px;
+.calculator {
+  max-width: 300px;
+  margin: auto;
+  background-color: #000000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.task-inputs input,
-.task-inputs select,
-.task-inputs button {
-  margin-right: 10px;
-  padding: 8px;
-}
-
-.task-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-.task-table th, .task-table td {
-  border: 1px solid #ddd;
+.display {
+  font-size: 24px;
+  text-align: right;
   padding: 10px;
-  text-align: left;
+  border-bottom: 1px solid #ccc;
 }
 
-.task-table th {
-  background-color: #181818;
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
-.completed-tasks {
-  max-width: 600px;
-  margin: 0 auto;
+.calculator-button {
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.completed-tasks h2 {
-  margin-bottom: 10px;
+.calculator-button :hover {
+  background-color: #e0e0e0;
 }
 
-.completed-tasks ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.completed-tasks li {
-  border-bottom: 1px solid #ddd;
-  padding: 10px;
-}
-@media only screen and (max-width: 600px) {
-  .task-inputs {
-    flex-direction: column;
-    margin-bottom: 10px;
-  }
-
-  .task-inputs input,
-  .task-inputs select,
-  .task-inputs button {
-    margin-right: 0;
-    margin-bottom: 10px;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-
-  .task-table th,
-  .task-table td {
-    font-size: 14px;
-    padding: 6px;
-  }
+.calculator-button :active {
+  background-color: #ccc;
 }
