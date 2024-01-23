@@ -71,6 +71,7 @@
     }
 }
 .currency-converter {
+  width: 300px;
   max-width: 300px;
   margin: auto;
   background-color: #010000;
@@ -96,6 +97,7 @@
 }
 
 .other-tres-button {
+  margin-left: 10px; /* Ajusta el margen izquierdo para separar el select del botón */
   background-color: #4caf50;
   color: white;
   border: none;

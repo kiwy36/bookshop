@@ -12,6 +12,7 @@ import FormsConteiner from '../components/Forms/FormsContainer'
 import ImagesConteiner from '../components/Images/ImagesContainer'
 import TablesConteiner from '../components/Tables/TablesContainer'
 import OthersConteiner from '../components/Others/OthersConteiner'
+import FooterPage from '../components/Footer/FooterPage/FooterPage'
 const Root = () => {
   return (
     <div className='contenedorDeContenedores'>
@@ -30,6 +31,7 @@ const Root = () => {
           <TablesConteiner/>
           <ToastsConteiner/>
           <OthersConteiner/>
+          <FooterPage/>
           {/* Aquí puedes agregar el resto del contenido */}
         </div>
       </div>

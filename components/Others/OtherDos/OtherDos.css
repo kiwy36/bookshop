@@ -71,34 +71,39 @@
     }
 }
 .password-generator {
-  max-width: 300px;
-  margin: auto;
-  background-color: #000000;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
+    max-width: 250px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.display {
-  font-size: 24px;
-  padding: 20px;
+.display-paswordd {
+    color: black;
+    min-width: 250px;
+    max-width: 250px;
+    width: 250px;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
 }
 
 .contrase-button {
-  font-size: 18px;
-  padding: 15px;
-  border: none;
-  background-color: #4caf50;
-  color: #fff;
-  cursor: pointer;
-  transition: background-color 0.3s;
+    width: 250px;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .contrase-button:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 .contrase-button:active {
-  background-color: #3e8e41;
+    background-color: #3e8e41;
 }
