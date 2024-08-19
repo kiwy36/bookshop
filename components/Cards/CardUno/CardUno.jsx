@@ -22,7 +22,7 @@ const TinderCasero = () => {
     const data = [
         {
           id: 1,
-          imgUrl: 'https://i.ibb.co/r4GyX4P/11.jpg',
+          imgUrl: 'https://lh3.googleusercontent.com/pw/AP1GczMJ61D1Hp2dkOfNNSU54Rh8g4kzrOQDWZCBYZuQeFJWPg1YPMHqxQpEik7QV6OUxtv8G_kSguH3OjT0XR5VL-_wrrPQL0-4jvkM6U7za9BM5tArT90wiuyKd5-Xp6DPziyE4BIgiyMMu9cGBhvUqlzTXA=w618-h618-s-no?authuser=0',
           name: 'Persona 1',
           edad: 25,
           altura: '175 cm',
@@ -33,7 +33,7 @@ const TinderCasero = () => {
         },
         {
           id: 2,
-          imgUrl: 'https://i.ibb.co/YjYFj3X/12.jpg',
+          imgUrl: 'https://lh3.googleusercontent.com/pw/AP1GczNvM0OBjbUMJt6JxZlr5VMR1wQjxZP-hM1fMo78FLjhEW91QzIRBAy5mIXCtJ-8pUAKxdkCMPZJYQDu_VB0iFLghKBmqi8y_Vaqrn2EzLqiN7Y-KALmTmelBxUhb4OPwVCzbe9MH__MjHe6br1BYJu2aQ=w618-h618-s-no?authuser=0',
           name: 'Persona 2',
           edad: 30,
           altura: '180 cm',
@@ -44,7 +44,7 @@ const TinderCasero = () => {
         },
         {
           id: 3,
-          imgUrl: 'https://i.ibb.co/d0vLx6Z/13.jpg',
+          imgUrl: 'https://lh3.googleusercontent.com/pw/AP1GczPjyXMJX8sGoGljcE9W36Y3Z2eZLYaNGLEMZlSXdcfQvm59kn-nsoZgH7n7FBKkiZFP8DmD98jW0rVraXxt_D7ZqwNpLIw1sVcdx4njhTpA81aHsZA-OijsMecM8FZg61sVehTBhaXpOC29vekrfRk0_A=w618-h618-s-no?authuser=0',
           name: 'Persona 3',
           edad: 22,
           altura: '165 cm',
@@ -55,7 +55,7 @@ const TinderCasero = () => {
         },
         {
           id: 4,
-          imgUrl: 'https://i.ibb.co/NrWTBNy/14.jpg',
+          imgUrl: 'https://lh3.googleusercontent.com/pw/AP1GczMZfXYu0ieqvwTE_kDVaIBIJJENt9b9PRVOXcUtjyQR3rC2N7s4dNrkpAddRTOEji2GU6n6MwwEnA3B8j2YyRKRuAn8MIX7Zx_X76vYoYw7ii_05vRp6eToHEFCtx-0t5q4ElLZV9tNHyaORxx4vnlbqg=w618-h618-s-no?authuser=0',
           name: 'Persona 4',
           edad: 28,
           altura: '170 cm',
@@ -66,7 +66,7 @@ const TinderCasero = () => {
         },
         {
           id: 5,
-          imgUrl: 'https://i.ibb.co/xLxrpRm/15.jpg',
+          imgUrl: 'https://lh3.googleusercontent.com/pw/AP1GczORkP3C1O7JFgTPLst560fxdVHHETAE2qRcFbfYOh-jl9DALDd3t4oNfL0O76LaHKudNnDAUa9zaUwMLbgN5R04V7F_Avt8p2yoIM0S434y5aV1viC9krXtlGS_g-2e63Sf_8x1wBJxPEJ2At0EuciHvA=w412-h618-s-no?authuser=0',
           name: 'Persona 5',
           edad: 27,
           altura: '178 cm',

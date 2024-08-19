@@ -23,27 +23,27 @@ const CopyButton = ({ text, onCopy }) => {
     const recipes = [
         {
           title: 'Ensalada de Verano',
-          image: 'https://i.ibb.co/SsCLCNJ/ensalada-de-pollo-con-papas-0.jpg',
+          image: 'https://lh3.googleusercontent.com/pw/AP1GczNdHowsZTKXsU-9OiWRiaMDS2do6RS7rDX-UimRYFeIsJjWbGurjX17Xc_9nO3nMU0RrrsLK2xAeq9jNmX32G5Qy_VhRQGSCscZLFQZXVce-aDSt9X_v4kTVT-WjipdoDIL0YCMGktuYgu9w8ccG26sSw=w512-h512-s-no?authuser=0',
           description: 'Una deliciosa ensalada fresca para el verano.',
         },
         {
           title: 'Tacos de Pescado',
-          image: 'https://i.ibb.co/26kJh29/tacos-de-Pescadoo.jpg',
+          image: 'https://lh3.googleusercontent.com/pw/AP1GczPpHRICGz8IQYWKJ_wrMo_6IPm03_OVfOVjMm87VHSH8coAwjmlu8YHJ6FyUXKS8K2np8ePWxTbZb_P6o1k2wgqBlEPLU32gB3NVOwbdFf66lE5x60s2HgKdviwddBtd6x3QMCg55BeZ312Gc9A68vNzg=w618-h618-s-no?authuser=0',
           description: 'Tacos de pescado crujiente con salsa de aguacate.',
         },
         {
           title: 'Pasta Primavera',
-          image: 'https://i.ibb.co/q5xTpxJ/fideos-primavera.jpg',
+          image: 'https://lh3.googleusercontent.com/pw/AP1GczP1Ju2httwMoIoftRdcRkoI_E08RNxGVkgoW5bvlphkD-qRXqmBo5Q_tW9ptSvCshriygUJTqZYl2MYDjZBGpsyOiKg1ViNxE0A_MkauAeh-IJjFmAe8rL9f5jxv7mERG47FnrJSdpAWz_kt9lh98x5uA=w618-h618-s-no?authuser=0',
           description: 'Pasta con vegetales frescos y pesto casero.',
         },
         {
           title: 'Sopa de Tomate',
-          image: 'https://i.ibb.co/FzjmWKk/sopa-de-lentejas-0.jpg',
+          image: 'https://lh3.googleusercontent.com/pw/AP1GczP0liKmtgH1x47sDiC7FyQf9RstpkQsAphFT13xBJS-KLZTHoMzqumeXqM7SAX5jPnD99A5-KqyI08uVvGdWkbFsZvq751EYW_lUIP25URG0Zg8bUS7l4XKqycSCabq7toFR5s_O42ex4wOfOr9bKUxHg=w512-h512-s-no?authuser=0',
           description: 'Sopa de tomate cremosa con albahaca.',
         },
         {
           title: 'Pizza Margherita',
-          image: 'https://i.ibb.co/vkV6Zxc/pizza-napolitana-con-jamon-1.jpg',
+          image: 'https://lh3.googleusercontent.com/pw/AP1GczNsS-Js1S6G6UAaEaAEMiIr2sgvLqlaLMIaLR0aJYYKKhN0PHXYJFTHpW1-dMSk1JuNxXyRAiynSHCC6AljDPrfxdsSRf0BUiOXZLZ0uplqZCBYzz97wxcvYA1EcP0NGV6GF7ttaNiOTSw6VaMNwTMfdg=w512-h512-s-no?authuser=0',
           description: 'Pizza clásica italiana con mozzarella y albahaca.',
         },
       ];

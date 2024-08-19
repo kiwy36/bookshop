@@ -27,7 +27,7 @@ const CardsCarrousel =() => {
       author: 'Miguel de Cervantes',
       genre: 'Clásico',
       price: 260,
-      image: 'https://i.ibb.co/5RXjz2r/Don-Quijote.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczOUTHZxPod3SDe1hXlu4ugeaD2-9Wstj0AQa5jpJ2F_QGY_XIdT2wCEFMfYZHqZf3_dTurQI9LyMv1NGf1lZAdWGr3yOqIDrDJknqSfsG_-TASq1okSrqN8MwPCMcYKDzz5sR0jof3Mn6FQ8XXSkaWe6A=w398-h618-s-no?authuser=0',
       synopsis: 'Las aventuras del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza.'
     },
     {
@@ -36,7 +36,7 @@ const CardsCarrousel =() => {
       author: 'Ray Bradbury',
       genre: 'Ciencia Ficción',
       price: 200,
-      image: 'https://i.ibb.co/MkwDHdd/Fahrenheit-451.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczP-srpfo63aIc6c3lSpw2d9BV05Xw_3gnfws_cY0uKcg8lQA9Wbm34XlJvOTytLlompEk7BzyhRDRJeDh9aXueHJTa27pBPcpeMaIOB4_fCLY-6JUtFW5DdTatL04W3YEMPxFQCGB2HUl3scKOFPdUwQw=w182-h277-s-no?authuser=0',
       synopsis: 'Un futuro distópico donde los libros son prohibidos.'
     },
     {
@@ -45,7 +45,7 @@ const CardsCarrousel =() => {
       author: 'J.R.R. Tolkien',
       genre: 'Fantasía',
       price: 300,
-      image: 'https://i.ibb.co/HgyDSQV/El-Se-or-de-los-Anillos.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczM4A1QMcUwDJ2WQNVgcM4oHCFVS1L3F-1LI8SZ6rskzYLXzRd5EEPDLR7q5THdJy00mm16f8HKIRtF8Krw29Z2BGnunQ1Cf-3w9-6PgKyUAw8FXQTc8xPpjfLn-tH993ePb9NTyX0dn7mhGgnWTdceVTg=w250-h405-s-no?authuser=0',
       synopsis: 'Una épica aventura en un mundo de fantasía.'
     },
     {
@@ -54,7 +54,7 @@ const CardsCarrousel =() => {
       author: 'Stephen King',
       genre: 'Terror',
       price: 220,
-      image: 'https://i.ibb.co/Nrx91Ss/Carrie.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczOdsKXQ0WwKQ-gi8auLoPaIIikf1uMsDPAnhvEpTPQpilLkPuqLJh-SRmYCTtbyQLtSPwlnj-68A2kbKwCKUf6mXwcOa7X-_PL3g7Tm_czTmu3eRvc1GlKDYloTdJw1n6gHqOwnL-vgmP8oSRBec7ubKA=w178-h282-s-no?authuser=0',
       synopsis: 'Una joven con poderes telequinéticos se desata en venganza.'
     },
     {
@@ -63,7 +63,7 @@ const CardsCarrousel =() => {
       author: 'Ray Bradbury',
       genre: 'Ciencia Ficción',
       price: 180,
-      image: 'https://i.ibb.co/YNt5Z2Z/Cr-nicas-Marcianas.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczNtHqwdpOhupXkn3sLN8mt_ft27WtDbTv2Oz5QSzasz5S6jX-xb9F3vX1jYxeeMhyF2m7tKWvKJtyoNMZTuts_YpxR0NJxaC1LSEYZbzeubKEt7CkWkyLct0DwraMPnM21W9NAqUJwAt2x3I60PrTCdCQ=w220-h340-s-no?authuser=0',
       synopsis: 'Historias sobre la colonización de Marte.'
     },
     {
@@ -72,7 +72,7 @@ const CardsCarrousel =() => {
       author: 'J.R.R. Tolkien',
       genre: 'Fantasía',
       price: 280,
-      image: 'https://i.ibb.co/MfcT8Kh/El-Hobbit.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczOFpPftwC9QduLALZWAiModub1KrZ3GMHMsnXvPJRCYrbHILNP0SMvVBDo84rbzo5K5m_2-mbsLjohVIZ3MAZSonQ5ti72-kZcBw-REzcoHpG_2hqz5svc8SwSXpuqyeY9fY4rUKVTWZJ62FKzliaNKdQ=w406-h618-s-no?authuser=0',
       synopsis: 'El inicio de la búsqueda del anillo único.'
     },
     {
@@ -81,7 +81,7 @@ const CardsCarrousel =() => {
       author: 'Stephen King',
       genre: 'Terror',
       price: 240,
-      image: 'https://i.ibb.co/C6Pzfdj/El-Resplandor.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczMlQhlSrAvHHOqEkIoqRwLthxshlrRubPNAEzVuPdIiDZIvGSPY-yEei5zpVNC7ngYah85QxvDoE11gH4r862v6BjrNQW4knzTbqJsbLcF3Fk4AyYLfRY-x0Xwuzarvn8Ol1OSHjyq1u-0t3D2eM7v11w=w406-h618-s-no?authuser=0',
       synopsis: 'Un hombre acepta un trabajo como cuidador de un hotel aislado.'
     },
     {
@@ -90,7 +90,7 @@ const CardsCarrousel =() => {
       author: 'C.S. Lewis',
       genre: 'Fantasía',
       price: 260,
-      image: 'https://i.ibb.co/LgM0WqM/Cr-nicas-de-Narnia.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczNfux_v25Jc48RwhwRL33mw8wAlJ3vG9ldLTDIwEWYyv2FuNIwXtzNfgypUVimW55eaqx9CutRF9plMWWfuBInfO1gM-lV81Oc4pQ1-PcPGNmV5-a1gewxXimTqXU6GvgKC3LkTOcDOBH6nNmO0DD-uHw=w192-h256-s-no?authuser=0',
       synopsis: 'Aventuras en un mundo mágico lleno de criaturas asombrosas.'
     },
     {
@@ -99,7 +99,7 @@ const CardsCarrousel =() => {
       author: 'Stephen King',
       genre: 'Terror',
       price: 210,
-      image: 'https://i.ibb.co/Fn3sG41/Cementerio-de-Animales.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczPoLCcRKrkCs0F3O3UvdkxLy6QKuuf-ljR2owL3nt6_o5nbYZ4eYlvpI4uuUJ5vVn4sbRJUQtz1Ld5y1fGg6ee_9xDtx10rFtLSPtukJy1_U5G-J4L6B_EyZ511f_2_q-LQySsEdJ9y8PUMnTT5rBxIlQ=w257-h400-s-no?authuser=0',
       synopsis: 'Una tenebrosa historia sobre el poder de la resurrección.'
     },
     {
@@ -108,7 +108,7 @@ const CardsCarrousel =() => {
       author: 'Arthur C. Clarke',
       genre: 'Ciencia Ficción',
       price: 190,
-      image: 'https://i.ibb.co/Gvd72N9/Cantos-de-la-Tierra-Lejana.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczMv-ZUh6mxEk7bpKmRnSD_NmcSwOwNt94RhD-hgeClIBVgY92_2H2Hxt1LDtufduWH2mukWQ1KuZoigzpFU6Yp8SH-h6F5rOnSDCH5wTwF_re7tsffYJmBYINMmCyg-vkk7dEfMMdfjSWoSrbnboC-4Mw=w183-h275-s-no?authuser=0',
       synopsis: 'Exploración de mundos lejanos y misterios del espacio.'
     },
     {
@@ -117,7 +117,7 @@ const CardsCarrousel =() => {
       author: 'J.R.R. Tolkien',
       genre: 'Fantasía',
       price: 320,
-      image: 'https://i.ibb.co/jwSSz8J/El-Silmarillion.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczNp6ci4NsceW5mm2DmDEfMxnQI6ibDYHMq2f1sXHi38LriVAlUF8-TLlR2lK8ubJgl9lUEsC4r0_AGI-m-Ev4E8JAyKFnvQxjSiMdXH3zjwJyOr2dX-gKdbTKeElA-UHW6eezBu21Rf-cxFHcMT4DINLA=w410-h618-s-no?authuser=0',
       synopsis: 'La historia y mitología del mundo de Tolkien.'
     },
     {
@@ -126,7 +126,7 @@ const CardsCarrousel =() => {
       author: 'Antoine de Saint-Exupéry',
       genre: 'Fantasía',
       price: 180,
-      image: 'https://i.ibb.co/pjFbj0J/El-Principito.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczOiJuP6p1b54QXwmivtVTkxjoaDX6pj6l4wYQRWYLe2llCUAlcrfkGek2YlJYR8n4cmRik0xwqetp_HWaiCox4488OovVjevWYVm8JD69UjnW6zgIbvvYIPvWUk5oxwo9Mi1ru6DxEDX6GjMteoTi-KTA=w178-h283-s-no?authuser=0',
       synopsis: 'Un niño viaja por planetas y aprende lecciones de vida.'
     },
     {
@@ -135,7 +135,7 @@ const CardsCarrousel =() => {
       author: 'Andy Weir',
       genre: 'Ciencia Ficción',
       price: 210,
-      image: 'https://i.ibb.co/25xKKb9/Martian.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczM6ICpar0SacrLo9doEr5IIoOE_Ij2FkU8zI9o0cAE2U8Q15oVWzWj0a5zu4VW0PMkARke3VKZGiOycKF8QeC0O5nCvHjE7fnv8iEe69hZTMkhK2VgGmM5gUvwxxWVitGWy9DtLbKJkBICRKXUcTTdsXg=w407-h600-s-no?authuser=0',
       synopsis: 'Un astronauta lucha por sobrevivir en Marte.'
     },
     {
@@ -144,7 +144,7 @@ const CardsCarrousel =() => {
       author: 'Bram Stoker',
       genre: 'Terror',
       price: 270,
-      image: 'https://i.ibb.co/Yy0Krxv/Dr-cula.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczNtPLCJjh1mZlmYS3mCTAHBqks3rHPsHFZWfp_Ep6no5chmFKv1m__OhQmwbd937Vj3Tx1ncNTXeFzrNk9OsIvxu4z4_HTjgXh4BPag_-WnlSz_9DyauJNMJKdxCMrrxdzgzQJTG5YppEybzKm-bz7Ssw=w430-h618-s-no?authuser=0',
       synopsis: 'El conde Drácula aterroriza Londres con su sed de sangre.'
     },
     {
@@ -153,7 +153,7 @@ const CardsCarrousel =() => {
       author: 'Harlan Coben',
       genre: 'Misterio',
       price: 230,
-      image: 'https://i.ibb.co/J20HVsn/el-bosque.jpg',
+      image: 'https://lh3.googleusercontent.com/pw/AP1GczNebZo_iQFzWzqkGDPyXToIaTRNXlAhaGeugfLI5wYgy3dUyEGRlk4kcG9j5GHvP2EytxgwPBVu9FTQ0rE7W_RexW2856pV6hOzeRl7346bzx6aXhuEo5YqXUBESpWJulb7U1JUmSPbsHtsfFC3cbYrtw=w143-h222-s-no?authuser=0',
       synopsis: 'Un hombre investiga la desaparición de su hija en un bosque misterioso.'
     },
   ];
