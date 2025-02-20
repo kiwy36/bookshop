@@ -73,7 +73,7 @@ const ImageElemento = () => {
             Majestuoso y feroz, el puma es un felino americano que domina vastas regiones. Su elegancia y destreza lo destacan como un depredador impresionante.
           </div>
           <img
-            src="https://lh3.googleusercontent.com/pw/AP1GczOpv9VCUKnCNIJK6rVKYVOwRWmG94NcZfrkZW_Fpcwj4VomwuBemXRpVVKsT9JTHBJGKNXMg1hCoaaaOkKvqHWsZSKL5tqPL7FMDb5QIILP1LIagpLMDJlFp1Y01fymxtLllOsfiTtS5P95HraikBF1wA=w600-h600-s-no?authuser=0"
+            src="https://i.ibb.co/sps4Y4Jk/puma.jpg"
             alt="Imagen muestra"
             className="hover-image"
             onClick={handleImageClick}
@@ -84,7 +84,7 @@ const ImageElemento = () => {
             El hornero, ave símbolo de Argentina, construye nidos de barro únicos. Su laboriosa naturaleza y canto melodioso lo distinguen en los campos sudamericanos.
           </div>
           <img
-            src="https://lh3.googleusercontent.com/pw/AP1GczN1lQ1smACfb763koprzczZMECR7QFbutMdtftspEoLVFfNZAN5dh5IdZ0g8NR5vDJ_PSUh937AZmislriSRU-KYF0IhDpUZ3WZKvWvv3dkFceimRK8QxTTahtAoqlH7TxvW_U1vm3hfx20TKfZYbJb3A=w640-h427-s-no?authuser=0"
+            src="https://i.ibb.co/C30sC1Pb/hornero.jpg"
             alt="Segunda imagen muestra"
             className="hover-image"
             onClick={handleImageClickImagenUno}
@@ -95,7 +95,7 @@ const ImageElemento = () => {
             El pudú pudú, ciervo más pequeño del mundo, habita los bosques sudamericanos. Su tamaño diminuto y cuernos cortos lo hacen encantador.
           </div>
           <img
-            src="https://lh3.googleusercontent.com/pw/AP1GczMZhWdUxs4cmKZkwQt3vuvJL5go-_3UDu_2XRqS8NV1GNT3BIY8kgjijFHTrz_dDzG_gN8S3Ds8P_X57warCshM0L1IEWu7F04cWNChQYEMhqDX_-Lg5S3IbZFCt4M_mGfI40p5MO4VsYB68WRWNmsF_Q=w638-h425-s-no?authuser=0"
+            src="https://i.ibb.co/nNm1BPZY/Pud-3.jpg"
             alt="Cuarta imagen muestra"
             className="hover-image"
             onClick={handleImageClickImagenDos}

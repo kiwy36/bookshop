@@ -23,9 +23,9 @@ const CopyButton = ({ text, onCopy }) => {
       {
         title: 'Bariloche',
         images: [
-          'https://lh3.googleusercontent.com/pw/AP1GczMcNDZJIUCuj8WkmctiCqD760i0XdmjAfuRK886KGseiVM2nl_Dq58VoGLA2b2P2bdQwvhy-i-pb0FJ4-uW-ETOU60FyDNt7FGFSqf4kalMwUwMzfawyQunukVYaL3Yd4L7JIJv94GAyDZbR0apuRBk5w=w800-h483-s-no?authuser=0',
-          'https://lh3.googleusercontent.com/pw/AP1GczOyCc5EdLaSGbDhu5teqkMZHyVpRd3l5DO-5Leb5sdOHhN36ARnGuXBkaYmEISndJX6UGDbOHIE1psf9osV_DVeHYeeu-fEhUb7hyaX4OaFptjAv3CInAH1AjIF42kXO8myYxMmSoKJCLg5oVqpzaHFvw=w989-h618-s-no?authuser=0',
-          'https://lh3.googleusercontent.com/pw/AP1GczO6D7kPPwlmZEKB2NOIHdjYRSaGM9X1bt2GM2cFT6HRBwlnDqjHcsS2fIFZzVafdefJvQ6xfP89wTlFCli5qyF9sAITJwG2F-LU8TKPi4xkjdpOo-O7_V1Vb74_I6EHjMfIC4a3ZJ9N_HD2-O9yMrM92w=w927-h618-s-no?authuser=0',
+          'https://i.ibb.co/20j8ZBfw/post-thumbnail-8185a199c72f8d397102be63c27c6732-1536x1024.jpg',
+          'https://i.ibb.co/nMQCvLsS/bariloche.jpg',
+          'https://i.ibb.co/rG6ttwH4/bariloche-argentina-cathedral-BARIBARI0120-69b51d47e65d4f2ebabed5abcc6f094a.jpg',
         ],
         description: 'Bariloche es famoso por su belleza natural, sus montañas cubiertas de nieve en invierno y sus lagos cristalinos en verano. Es un destino ideal para el esquí y el snowboard en invierno, y ofrece actividades al aire libre durante todo el año.',
         url: 'URL de Bariloche',
@@ -33,9 +33,9 @@ const CopyButton = ({ text, onCopy }) => {
       {
         title: 'Ushuaia',
         images: [
-          'https://lh3.googleusercontent.com/pw/AP1GczP6VAfaR6JOpMEKDi98G2L4USrf9BuoUIpC1r-fAOA0GP_x4I2PNCWH72tMtVl1jO0GGA63TiqqUGvj0CXBwc9s5PouXZeGtH1--P60LIUWyTB4wxWs3u6jsU9JcD3BEfmcR5C1x-2ged9yztelTd8Nug=w927-h618-s-no?authuser=0',
-          'https://lh3.googleusercontent.com/pw/AP1GczN9suFm3o9IZ431mfexs0_1vDfua46u-tiiPcVEqIp38AliQsC9yywiYzUMty7cbg0S8D2q8Psr8SUpGq6LHHAZGN4TQa4uQvTNW-kraZUeekqOuhD5voIqJ76XscpKSWVUAW-e6BuA95XdOssvCBD8kw=w825-h618-s-no?authuser=0',
-          'https://lh3.googleusercontent.com/pw/AP1GczNUR4uapgrQfvMHk9g_4MWxlAkxM1eyMy6kZrCx9JKwckoDRPFkn6wlNHPV7iEh5LxVeb5hx9UXzQLJzYAm0tFy71IcOeEgzAh0jq0MmMajd7_LonQpa8eK8Qwrl3Jv-yu8bkuU0CYTmmUVRo3VDon6PA=w949-h618-s-no?authuser=0',
+          'https://i.ibb.co/wrdxr0Gt/laguna-esmeralda-frente.jpg',
+          'https://i.ibb.co/hJg3QCwZ/Ii-Oc-Ix-Aos-1256x620-1.jpg',
+          'https://i.ibb.co/TDtjXTPM/Ushuaia-1-scaled.jpg',
         ],
         description: 'Ushuaia, conocida como "el fin del mundo", es la ciudad más austral del mundo. Ofrece paisajes impresionantes, glaciares, montañas y una amplia variedad de actividades, desde excursiones en barco por el Canal Beagle hasta senderismo y exploración de la Antártida.',
         url: 'URL de ushuaia',
@@ -43,8 +43,8 @@ const CopyButton = ({ text, onCopy }) => {
       {
         title: 'San Martín de los Andes',
         images: [
-          'https://lh3.googleusercontent.com/pw/AP1GczOQhP5lY-w8MOAu4GS7kjkAcAWtQw65GH9x5RjGKRMXXPAiOPXsEaVUosfdpP0J3w4REuQum4AVSoJdPBJ5ZhWyT-vtQ-729S7OyC24ey-1D3tJXEcRKcidwvCYxQKDoMg6omtCv7kt4JaDrLnXS1zBqQ=w1252-h618-s-no?authuser=0',
-          'https://lh3.googleusercontent.com/pw/AP1GczMGT_d1XUtKl0JcvFYMI4VHs7u3pfkcrf8AfAClBj-HW3STXmyKrzIpCHKx03ji8Bsh-FCpz2-h0otVqrXpmg3mji_BF3Zu2P8JXnwm0nhWiCHTxY6oTR0FNpTsUWaf1G4usSjOgURnKRxvwceD9J3Oqg=w500-h400-s-no?authuser=0',
+          'https://i.ibb.co/1fDcpLZV/sm1.jpg',
+          'https://i.ibb.co/jPcbfBHj/los-pozones-de-caleufu.jpg',
         ],
         description: 'San Martín de los Andes es un destino de montaña con paisajes de ensueño. Ofrece oportunidades para el senderismo, la pesca y la relajación en un entorno natural impresionante.',
         url: 'URL de sanmartin',
